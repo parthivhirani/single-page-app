@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parthiv Hirani</title>
+  <link rel="icon" href="images/p.png" />
+  <link rel="stylesheet" href="spa.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+  <div id="navbar" class="nav-bar">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <button type="button" class="btn btn-light border-0 bg-transparent" onclick="home()">Home</button>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-light border-0 bg-transparent" onclick="aboutus()">About Us</button>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-light border-0 bg-transparent" onclick="images1()">Images</button>
+      </li>
+      <li class="nav-item">
+        <button type="button" class="btn btn-light border-0 bg-transparent" onclick="services()">Services</button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="name">
+    <h1 class="heading-name">Parthiv Hirani</h1>
+  </div>
+
+  <div id="home" class="main">
+    <img src="images/galaxy.jpg" class="d-block w-100 h-100 container-fluid">
+    <div class="top-left">
+      <img src="images/man.png" style="float: right;"/>
+      <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, 
+        content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+        as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</h2>
+    </div>
+  </div>
+
+
+  <div id="aboutus" class="aboutus">
+    <h1>Team that Engineers your Next Digital Product</h1>
+    <h3>
+      <span style="font-size: 50px;">C</span>ontrary to popular belief, Lorem Ipsum is not simply random text.<br>It has roots in a piece 
+      of classical Latin literature from 45 BC, making it over 2000 years old.<br>Richard McClintock, a 
+      Latin professor at Hampden-Sydney College in Virginia,<br>looked up one of the more obscure Latin words, 
+      consectetur,<br>from a Lorem Ipsum passage, and going through the cites of the word<br>in classical 
+      literature, discovered the undoubtable source.<br><br>
+      
+      <span style="font-size: 50px;">L</span>orem Ipsum comes from sections 1.10.32 and 1.10.33 
+      of<br>"de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.<br><br>
+      
+      <span style="font-size: 50px;">T</span>his book is a treatise on the theory of ethics, very popular during the Renaissance.<br>The first line of Lorem Ipsum, 
+      "Lorem ipsum dolor sit amet..",<br>comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum<br>used sincethe 1500s is reproduced 
+      below for those interested.<br>Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero<br>are also reproduced in their exact 
+      original form,<br>accompanied by English versions from the 1914 translation by H. Rackham.
+    </h3>
+  </div>
+
+
+  <div id="images1" class="images">
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <img src="images/img1.jpg" style="max-width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="images/img2.jpg" style="max-width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="images/img3.jpg" style="max-width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </div>
+
+
+  <div id="services" class="services">
+    <div class="card">
+      <img src="images/html.png" class="card-img-top">
+      <div class="card-body">
+        <hr>
+        <h5 class="card-title">HTML 5</h5>
+        <p class="card-text">Basic scripting language to create static web page.</p>
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="btn btn-primary">Visit Site</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/css3.png" class="card-img-top">
+      <div class="card-body">
+        <hr>
+        <h5 class="card-title">CSS 3</h5>
+        <p class="card-text">Styling language to give style to the HTML page.</p>
+        <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="btn btn-primary">Visit Site</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/js.png" class="card-img-top">
+      <div class="card-body">
+        <hr>
+        <h5 class="card-title">JavaScript</h5>
+        <p class="card-text">Client side scripting language to modify HTML content over the web page.</p>
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank" class="btn btn-primary">Visit Site</a>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div id="navbar" class="nav-bar">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <button type="button" class="btn btn-light border-0 bg-transparent" onclick="home()">Home</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light border-0 bg-transparent" onclick="aboutus()">About Us</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light border-0 bg-transparent" onclick="images1()">Images</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light border-0 bg-transparent" onclick="services()">Services</button>
+        </li>
+      </ul>
+    </div>
+
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/parthivhirani" target="_blank"><i
+            class="fa-brands fa-github fa-2x clr"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://in.linkedin.com/in/parthiv-hirani-61a6421b8" target="_blank"><i
+            class="fa-brands fa-linkedin fa-2x clr"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-brands fa-instagram fa-2x clr"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-brands fa-twitter fa-2x clr"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-brands fa-youtube fa-2x clr"></i></a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="spa.js"></script>
+</body>
+
+</html>
